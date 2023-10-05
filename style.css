@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Montserrat', sans-serif;
+ */
+
+.landing-page {
+      background-image: url(img/bgg.jpg);
+      background-size: cover;
+      height: 115vh;
+}
+
+.head {
+    width: 100%;
+    height: 60px;
+    background-color: #0A2324;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.head-left {
+    width: 40%;
+    font-size: 2rem;
+}
+
+.head-right ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-right a {
+    color: #FFFFFF;
+}
+.head-right  {
+    width: 45%;
+}
+
+
+
+.head-right ul li {
+    display: inline;
+    /* justify-content: space-around; */
+    font-size: 1.3rem;
+}
+
+
+/* left main section of landing page  */
+
+.main-content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    /* background-color: aliceblue; */
+}
+
+.content-box {
+    height: 70%;
+    width: 80%;
+    /* background-color: aqua; */
+}
+
+.content {
+    width: 100%;
+    /* padding-bottom: 1rem; */
+}
+
+.s1 {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+.s2 {
+    padding-top: 0px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    color: #0EBFCC;
+}
+
+.s3 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+
+.s4 {
+    padding-top: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+
+.s5 {
+    color: #4DCAD2;
+}
+
+
+.s6 {
+    margin-top: 2rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center;  */
+    /* align-content: center; */
+}
+
+.button-1 button,
+.button-2 button {
+    padding: 0.85rem 4rem;
+    margin: 0 2rem;
+    border-radius: .7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: .06rem;
+    box-shadow: 0 0 900px rgba(255, 255, 255, .5);
+
+}
+
+.button-1 button {
+    margin: 0 2rem 0 0;
+    color:  #0EBFCC;
+    background-color:#FFFFFF;
+    
+}
+
+.button-2 button {
+    /* margin: 0 2rem 0 0; */
+    color: #FFFFFF;
+    background-color: #0EBFCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+.front {
+    height: 900px;
+    background-color: #090909;
+}
+
