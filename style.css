@@ -11,8 +11,7 @@ font-family: 'Montserrat', sans-serif;
  */
 
 .landing-page {
-      background-image: url(img/bgg.jpg);
-      background-size: cover;
+      
       height: 100vh;
 }
 
@@ -24,6 +23,8 @@ font-family: 'Montserrat', sans-serif;
     justify-content: space-around;
     align-items: center;
     color: #FFFFFF;
+    box-shadow: 0 0 500px rgba(255, 255, 255, .2);
+
 }
 
 .head-left {
@@ -43,7 +44,14 @@ font-family: 'Montserrat', sans-serif;
     width: 45%;
 }
 
-
+.head-right ul li a {
+    transition: 0ms;
+    font-weight: 500;
+}
+.head-right ul li a:hover {
+    color: #0EBFCC;
+   
+}
 
 .head-right ul li {
     display: inline;
@@ -59,7 +67,7 @@ font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55%;
+    width: 50%;
     /* background-color: aliceblue; */
 }
 
@@ -67,6 +75,18 @@ font-family: 'Montserrat', sans-serif;
     height: 70%;
     width: 80%;
     /* background-color: aqua; */
+}
+
+.pic{
+    background-image: url(img/imgg.png);
+    background-size: cover;   
+    height:92vh;
+    width: 50%;
+}
+
+.main-page {
+    background-color: #090909;
+display: flex;
 }
 
 .content {
@@ -120,15 +140,24 @@ font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: .06rem;
-    box-shadow: 0 0 900px rgba(255, 255, 255, .5);
-
+    box-shadow: 0 0 900px rgba(255, 255, 255, .4);
+    transition: 500ms;
+    border: none;
 }
 
 .button-1 button {
     margin: 0 2rem 0 0;
     color:  #0EBFCC;
     background-color:#FFFFFF;
-    
+}
+.button-1 button:hover,
+.button-2 button:hover
+ {  
+
+    padding: 1.05rem 4.3rem;
+    color:  #FFFFFF;
+    background-color: #0A2324;
+    border: 2px solid white;
 }
 
 .button-2 button {
@@ -140,15 +169,35 @@ font-family: 'Montserrat', sans-serif;
 
 
 
-
-
-
-
-
-
-
 .front {
     height: 900px;
     background-color: #090909;
 }
 
+
+
+
+
+
+
+
+
+ 
+@media (max-width: 768px) {
+    .main-content {
+        width: 90%;
+    }
+    .s1 {
+        font-size: 1.8rem; /* Adjust font size for mobile */
+    }
+    .s2 {
+        font-size: 1.5rem; /* Adjust font size for mobile */
+    }
+    .pic {
+        background-size: cover; /* Adjust background size for mobile */
+        height: 50vh; /* Reduce the height of the image */
+    }
+    .head-right {
+        display: none; /* Hide the navigation links for mobile */
+    }
+}
