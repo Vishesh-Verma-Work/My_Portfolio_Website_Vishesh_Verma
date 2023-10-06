@@ -79,7 +79,7 @@ font-family: 'Montserrat', sans-serif;
 
 .pic{
     background-image: url(img/imgg.png);
-    background-size: cover;   
+    background-size:cover;   
     height:92vh;
     width: 50%;
 }
@@ -272,7 +272,7 @@ display: flex;
         width: 100%;
      }
      .spe{
-        font-size: .5rem;
+        font-size: .9rem;
      }
      .s6 {
         display: flex;
