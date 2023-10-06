@@ -13,7 +13,7 @@ font-family: 'Montserrat', sans-serif;
 .landing-page {
       background-image: url(img/bgg.jpg);
       background-size: cover;
-      height: 115vh;
+      height: 100vh;
 }
 
 .head {
