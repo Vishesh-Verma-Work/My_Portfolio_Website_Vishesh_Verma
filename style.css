@@ -11,7 +11,7 @@ font-family: 'Montserrat', sans-serif;
  */
 
 .landing-page {
-      
+      width: 100%;
       height: 100vh;
 }
 
@@ -87,6 +87,7 @@ font-family: 'Montserrat', sans-serif;
 .main-page {
     background-color: #090909;
 display: flex;
+/* width: 100%; */
 }
 
 .content {
@@ -263,6 +264,7 @@ display: flex;
      .main-page {
        display:block;
        justify-content: center;
+       /* width: 100%; */
      }
      .main-content,
      .pic {
@@ -270,7 +272,7 @@ display: flex;
         width: 100%;
      }
      .s2{
-        font-size: 1.01rem;
+        font-size: .8rem;
      }
      .s6 {
         display: flex;
