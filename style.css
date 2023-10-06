@@ -146,7 +146,7 @@ display: flex;
 }
 
 .button-1 button {
-    margin: 0 2rem 0 0;
+    /* margin: 0 2rem 0 0; */
     color:  #0EBFCC;
     background-color:#FFFFFF;
 }
@@ -183,21 +183,93 @@ display: flex;
 
 
  
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
     .main-content {
-        width: 90%;
-    }
-    .s1 {
-        font-size: 1.8rem; /* Adjust font size for mobile */
-    }
-    .s2 {
-        font-size: 1.5rem; /* Adjust font size for mobile */
+        width: 50%;
     }
     .pic {
-        background-size: cover; /* Adjust background size for mobile */
-        height: 50vh; /* Reduce the height of the image */
+        width: 70%;
+        height: 70vh;
+    }
+    .s1 {
+        padding-top: -1rem;
+        font-size: 1rem; /* Adjust font size for mobile */
+    }
+    .s2 {
+        font-size: 1.3rem; /* Adjust font size for mobile */
+    }
+    .s3 {
+        font-size: 1rem; /* Adjust font size for mobile */
+    }
+    .s4 {
+        font-size: 0.8rem; /* Adjust font size for mobile */
     }
     .head-right {
         display: none; /* Hide the navigation links for mobile */
     }
+
+    /* .head-left {
+        
+    } */
+    .button-1 button,
+    .button-2 button  {
+        padding: 0.5rem 2rem;
+        margin: 0 1rem 0 0;
+    }
+}
+
+
+
+@media (max-width: 848px){
+
+    .main-content {
+        width: 40%;
+        /* height: 70vh; */
+        align-items:flex-start;
+        margin-top: 2rem;
+    }
+    .pic {
+        width: 60%;
+        height: 60vh;
+    }
+    .s6 {
+        display: block;
+    }
+    
+    .button-1 button,
+    .button-2 button  {
+      margin: 0;
+    }
+    .button-2 button {
+        margin-top: 1rem;
+    }
+    .button-1 button,
+    .button-2 button  {
+        padding: 0.4rem 1.5rem;
+    }.button-1 button:hover,
+    .button-2 button:hover
+     {  
+        padding: .5rem 1.8rem;
+    }
+}
+
+
+@media (max-width: 733px){
+     .main-page {
+       display:block;
+       justify-content: center;
+     }
+     .main-content,
+     .pic {
+
+        width: 100%;
+     }
+     .s6 {
+        display: flex;
+    }
+    .button-2 button {
+        margin-top: 0;
+        margin-left: 3rem;
+    }
+    
 }
