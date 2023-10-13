@@ -30,23 +30,31 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .head-left {
+    background-color: #0A2324;
     width: 40%;
     font-size: 2rem;
 }
+header {
+    background-color:#0A2324;
+}
 
 .head-right ul {
+    background-color: #0A2324;
     display: flex;
     justify-content: space-around;
 }
 
 .head-right a {
+    background-color: #0A2324;
     color: #FFFFFF;
 }
 .head-right  {
+    
     width: 45%;
 }
 
 .head-right ul li a {
+
     transition: 0ms;
     font-weight: 500;
 }
@@ -56,6 +64,7 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .head-right ul li {
+    background-color: #0A2324;
     display: inline;
     /* justify-content: space-around; */
     font-size: 1.3rem;
@@ -134,6 +143,10 @@ display: flex;
     /* align-content: center; */
 }
 
+.button-2 {
+    /* background-color:#090909; */
+}
+
 .button-1 button,
 .button-2 button {
     padding: 0.85rem 4rem;
@@ -153,6 +166,9 @@ display: flex;
     color:  #0EBFCC;
     background-color:#FFFFFF;
 }
+
+
+
 .button-1 button:hover,
 .button-2 button:hover
  {  
@@ -164,6 +180,7 @@ display: flex;
 }
 
 .button-2 button {
+    
     /* margin: 0 2rem 0 0; */
     color: #FFFFFF;
     background-color: #0EBFCC;
@@ -296,56 +313,139 @@ display: flex;
     /* about section  */
 
 .about {
+    /* border: 4px solid rgb(176, 219, 4); */
     width: 100%;
-    margin: 15rem 2rem 3rem 2rem;
+    margin: 15rem 0 3rem 0;
     color: #FFFFFF;
     background-color: #090909;
     height: 800px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
 .pic-about {
-    height: 40rem;
+    /* border: 4px solid red; */
+    height: auto;
     width: 30%;
     background-image: url(img/pic2.jpg);
     background-size: cover;
+    /* margin: 2rem 4rem 2rem 0rem; */
 }
 
-.info-about {
-    /* margin-top: 2rem; */
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
+.info {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 0rem 2rem 3rem 2rem;
+    width: 70%;
+    /* border: 4px solid blue; */
 }
+
 
 .main-info {
     width: 100%;
-    margin-left: 1.7rem;
-    margin-top: 1.4rem;
-}
-
-.list-info {
-
-    width: 100%;
-    margin-top: 1rem;
+    height: 100%;
     display: flex;
-    /* justify-content: space-around; */
+    margin-top: 0;
+    flex-direction: column;
 }
 
-.main-list-info {
-    width: 7rem;
-    margin-right: 2rem;
+.about-heading {
+    margin-bottom: 1rem;
+    letter-spacing: .2rem;
+    text-align: center;
 }
 
-.main-list-ans {
-width: 100%;
-margin-right: 1.2rem;
+
+.about-cont{
+    margin-top: 1rem;
+    /* border: 3px solid green; */
+    display: flex;
+    width: 100%;
+    height: auto;
 }
 
-.text {
-    margin-bottom: 3rem;
-    letter-spacing: .3rem;
+.about-q {
+    margin: 0 1rem 1.2rem 0;
+    width: 20%;
 }
+.about-ans {
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    width: 80%;
+}
+
+.bold {
+    letter-spacing: .1rem;
+    font-weight: 700;
+}
+
+.blue {
+    color: #0EBFCC;
+}
+
+
+.heading {
+        /* padding-top: 1.2rem; */
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.1rem;
+}
+
+.sfont {
+        /* padding-top: 1.2rem; */
+        font-family: 'Montserrat', sans-serif;
+        font-size: .9rem;
+        color: #FFFFFF;
+    
+}
+
+
+
+        /* Styles for tablets */
+        @media (max-width: 1024px) {
+           .heading {
+            font-size:.8rem;
+           }
+
+           .sfont {
+            font-size: .8rem;
+           }
+        }
+
+        /* Styles for larger smartphones */
+        @media (max-width: 768px) {
+            .about {
+                width: 100%;
+                flex-direction: column;
+            }
+
+            .info {
+                width: 90%;
+            }
+
+            .pic-about {
+                width: 100%;
+                /* margin-left: 4rem;
+                margin-right: 4rem; */
+                height: 70rem;
+            }
+
+            .heading {
+                font-size: .8rem;
+               }
+    
+               .sfont {
+                font-size: .65rem;
+               }
+        }
+
+        /* Styles for smaller smartphones */
+        @media (max-width: 480px) {
+            .heading {
+                font-size:.6rem;
+               }
+    
+               .sfont {
+                font-size: .45rem;
+               }
+        }
