@@ -143,16 +143,14 @@ display: flex;
     /* align-content: center; */
 }
 
-.button-2 {
-    /* background-color:#090909; */
-}
+
 
 .button-1 button,
 .button-2 button {
     padding: 0.85rem 4rem;
     margin: 0 2rem;
     border-radius: .7rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: .06rem;
