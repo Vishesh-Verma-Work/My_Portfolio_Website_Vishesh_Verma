@@ -332,7 +332,7 @@ header {
 .about {
     /* border: 4px solid rgb(176, 219, 4); */
     width: 100%;
-    margin: 15rem 0 3rem 0;
+    margin: 15rem 5rem 3rem 4rem;
     color: #FFFFFF;
     background-color: #090909;
     height: 880px;
@@ -343,18 +343,19 @@ header {
 
 .pic-about {
     /* border: 4px solid red; */
-    height: auto;
-    width: 30%;
+    height: 38rem;
+    width: 50%;
     background-image: url(img/pic2.jpg);
     background-size: cover;
     /* margin: 2rem 4rem 2rem 0rem; */
+    margin-right: 4rem;
 }
 
 .info {
     /* display: flex;
     justify-content: space-between; */
     margin: 0rem 2rem 3rem 2rem;
-    width: 70%;
+    width: 50%;
     /* border: 4px solid blue; */
 }
 
@@ -468,3 +469,80 @@ header {
         font-size: .45rem;
     }
 }
+
+
+
+.skills {
+    color: #FFFFFF;
+    margin: 2rem;
+    /* background-color: #0A2324; */
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.card {
+    height: 25rem;
+    width: 20rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 30px rgba(14,191,204,.5);
+    margin: 1rem;
+    border: .5px solid white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-content: center;
+    transition: .4s;
+}
+
+.card:hover {
+    border: .5px solid #0ebfcc;
+    box-shadow: 1px 1px 40px rgba(252, 252, 252, 0.5);
+}
+.text-heading h3{
+    text-align: center;
+    font-weight: 600;
+    color: #0ebfcc;
+    margin: 4rem auto;
+    /* background-color: rgba(255, 255, 255, 0.081); */
+    font-size: 3rem;
+    letter-spacing: .3rem;
+}
+
+.skill-pic img {
+    margin-top: 1rem;
+    height: 11rem;
+    width: 40%;
+    
+}
+.extra-pic-width img {
+    /* put this below the .skill-pic img, to over write the property */
+    width: 80%;
+}
+
+.m-extra-pic-width img {
+    width: 60%;
+}
+
+
+.skill-pic{
+    display: flex;
+    justify-content: center;
+}
+
+
+.skill-tittle {
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 600;
+    color: #0EBFCC;
+    margin: 1rem 0;
+}
+
+.skill-des {
+    font-size: medium;
+    text-align: center;
+}
+
