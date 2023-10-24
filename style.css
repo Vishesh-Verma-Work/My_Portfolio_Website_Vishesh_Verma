@@ -478,7 +478,7 @@ header {
     /* background-color: #0A2324; */
     display: flex;  
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
 }
 
