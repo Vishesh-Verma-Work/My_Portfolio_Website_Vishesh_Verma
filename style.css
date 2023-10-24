@@ -591,20 +591,43 @@ header {
 
  @media (max-width : 563px ) {
     .card {
-        height: 18rem;
-        width: 20rem;
+        height: 14rem;
+        width: 9rem;
     }
 
     .skill-pic img {
-        margin-top: .45rem;
-        height: 7rem;
+        margin-top: .5rem;
+        height: 3.5rem;
+    }
+    
+    .skill-tittle {
+        font-size: 1.2rem;
+    }
+    
+    .skill-des {
+        font-size: xx-small;
     }
 
 } 
-@media (max-width : 329px ) {
+@media (max-width : 512px ) {
     .card {
-        height: 20rem;
-        width: 20rem;
+        margin: .2rem;
+        height: 11rem;
+        width: 7rem;
+    }
+
+    .skill-pic img {
+        margin-top: .4rem;
+        height: 3.5rem;
+    }
+    
+    .skill-tittle  {
+        margin-bottom: 0.5rem;
+        font-size: .8rem;
+    }
+    
+    .skill-des {
+        font-size: .51rem;
     }
 
 } 
