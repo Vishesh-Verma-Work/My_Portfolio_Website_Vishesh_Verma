@@ -545,3 +545,71 @@ header {
     text-align: center;
 }
 
+
+@media (max-width : 850px ) {
+    .card {
+        height: 20rem;
+        width: 15rem;
+    }
+
+    .skill-pic img {
+        margin-top: .5rem;
+        height: 7rem;
+    }
+    
+    .skill-tittle {
+        font-size: 1.6rem;
+    }
+    
+    .skill-des {
+        font-size: small;
+    }
+    
+}
+
+
+@media (max-width : 697px ) {
+    .card {
+        height: 16rem;
+        width: 11rem;
+    }
+
+    .skill-pic img {
+        margin-top: .35rem;
+        height: 5rem;
+
+    }
+    
+    .skill-tittle {
+        font-size: 1rem;
+    }
+    
+    .skill-des {
+        font-size: smaller;
+    }
+    
+}
+
+@media (max-width : 563px ) {
+    .card {
+        border-radius: .5rem;
+        height: 13rem;
+        width: 6.7rem;
+    }
+
+    .skill-pic img {
+        margin-top: .25rem;
+        height: 3rem;
+
+    }
+    
+    .skill-tittle {
+        font-size: 1rem;
+    }
+    
+    .skill-des {
+        font-size: xx-small;
+    }
+    
+}
+
