@@ -478,7 +478,7 @@ header {
     /* background-color: #0A2324; */
     display: flex;  
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
     align-content: center;
 }
 
@@ -577,7 +577,6 @@ header {
     .skill-pic img {
         margin-top: .35rem;
         height: 5rem;
-
     }
     
     .skill-tittle {
@@ -590,26 +589,23 @@ header {
     
 }
 
-@media (max-width : 563px ) {
+ @media (max-width : 563px ) {
     .card {
-        border-radius: .5rem;
-        height: 13rem;
-        width: 6.7rem;
+        height: 18rem;
+        width: 20rem;
     }
 
     .skill-pic img {
-        margin-top: .25rem;
-        height: 3rem;
+        margin-top: .45rem;
+        height: 7rem;
+    }
 
+} 
+@media (max-width : 329px ) {
+    .card {
+        height: 20rem;
+        width: 20rem;
     }
-    
-    .skill-tittle {
-        font-size: 1rem;
-    }
-    
-    .skill-des {
-        font-size: xx-small;
-    }
-    
-}
+
+} 
 
