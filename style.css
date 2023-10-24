@@ -472,6 +472,8 @@ header {
 
 
 
+
+
 .skills {
     color: #FFFFFF;
     margin: 2rem;
@@ -505,9 +507,11 @@ header {
     font-weight: 600;
     color: #0ebfcc;
     margin: 4rem auto;
+    padding: 1rem;
     /* background-color: rgba(255, 255, 255, 0.081); */
+    box-shadow: 1px 1px 30px rgba(14,191,204,.5);
     font-size: 3rem;
-    letter-spacing: .3rem;
+    letter-spacing: .35rem;
 }
 
 .skill-pic img {
@@ -565,6 +569,11 @@ header {
         font-size: small;
     }
     
+    .text-heading h3{
+        margin: 1.5rem auto;
+        font-size: 2.5rem;
+        letter-spacing: .35rem;
+    }
 }
 
 
@@ -585,6 +594,10 @@ header {
     
     .skill-des {
         font-size: smaller;
+    }
+    .text-heading h3{   
+        font-size: 2rem;
+        letter-spacing: .3rem;
     }
     
 }
@@ -607,8 +620,14 @@ header {
     .skill-des {
         font-size: xx-small;
     }
+    .text-heading h3{  
+      
+        font-size: 1.6rem;
+        letter-spacing: .3rem;
+    }
 
 } 
+
 @media (max-width : 512px ) {
     .card {
         margin: .2rem;
@@ -622,13 +641,54 @@ header {
     }
     
     .skill-tittle  {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.8rem;
         font-size: .8rem;
     }
     
     .skill-des {
         font-size: .51rem;
     }
+    
+    .skills {
+        margin: .8rem;
+    }
+    .text-heading h3{  
+       
+        font-size: 1.2rem;
+        letter-spacing: .2rem;
+    }
 
 } 
 
+
+@media (max-width : 349px ) {
+    .card {
+        margin: .2rem;
+        height: 9.5rem;
+        width: 5rem;
+    }
+
+    .skill-pic img {
+        margin-top: .2rem;
+        height: 3rem;
+    }
+    
+    .skill-tittle  {
+        margin: 0.2rem;
+        font-size: .75rem;
+    }
+    
+    .skill-des {
+        font-size: .41rem;
+    }
+    
+    .skills {
+        margin: .8rem;
+    }
+    .text-heading h3{  
+        
+        font-size: 1rem;
+        letter-spacing: .2rem;
+    }
+
+} 
