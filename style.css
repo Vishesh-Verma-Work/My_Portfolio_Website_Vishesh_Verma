@@ -86,7 +86,7 @@ header {
 }
 
 .content-box {
-    height: 70%;
+    height: 39%;
     width: 80%;
     /* background-color: aqua; */
 }
@@ -135,7 +135,12 @@ header {
 }
 
 .s5 {
+    transition: 0mss;
     color: #4DCAD2;
+}
+
+.s5:hover {
+    color: yellow;
 }
 
 
@@ -550,6 +555,80 @@ header {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/* ABOUT ME  */
+
+
+.about-me {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem; */
+}
+
+.margin {
+    padding: 1rem;
+}
+
+
+
+#space {
+    margin-top: 10rem;
+}
+
+.des {
+    width: 100%;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: .5rem 0;
+    /* border: 4PX solid PINK; */
+}
+
+.about-me-que {
+    text-align: start;
+    width: 21rem;
+    /* margin: 0 1rem; */
+}
+
+.about-me-ans {
+    margin:   auto;
+    text-align: start;
+    width: 70%;
+}
+
+
+.text-que {
+    color: #0EBFCC;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width : 850px ) {
     .card {
         height: 20rem;
@@ -573,6 +652,12 @@ header {
         margin: 1.5rem auto;
         font-size: 2.5rem;
         letter-spacing: .35rem;
+    }
+
+    /* about me media quuerry :)  */
+    .text-que {
+        font-size: 1.3rem;
+        width: 18rem;
     }
 }
 
@@ -599,7 +684,10 @@ header {
         font-size: 2rem;
         letter-spacing: .3rem;
     }
-    
+    .text-que {
+        font-size: 1rem;
+        width: 15rem;
+    }
 }
 
  @media (max-width : 563px ) {
@@ -624,6 +712,10 @@ header {
       
         font-size: 1.6rem;
         letter-spacing: .3rem;
+    }
+    .text-que {
+        font-size: .81rem;
+        width: 12rem;
     }
 
 } 
@@ -656,6 +748,10 @@ header {
        
         font-size: 1.2rem;
         letter-spacing: .2rem;
+    }
+    .text-que {
+        font-size: .61rem;
+        width: 10rem;
     }
 
 } 
@@ -690,5 +786,10 @@ header {
         font-size: 1rem;
         letter-spacing: .2rem;
     }
+    .text-que {
+        font-size: .51rem;
+        width: 8rem;
+    }
 
 } 
+
