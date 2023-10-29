@@ -501,7 +501,7 @@ header {
 .form-box {
     border-radius: .45rem;
     box-shadow: 1px 1px 20px rgba(14,191,204,.2);
-    border: 1.5px solid #fff;
+    border: .5px solid white;
     padding-left: 2rem;
     height: 2.5rem;
     background-color: #090909;
@@ -626,7 +626,6 @@ header {
         width: 15rem;
     }
     .form-box {
-        border: 1.2px solid #fff;
         padding-left: 1.6rem;
         margin: 1rem 2rem;
     }
@@ -668,7 +667,6 @@ header {
         width: 12rem;
     }
     .form-box {
-        border: 1px solid #fff;
         padding-left: 1.2rem;
     }
     .text-heading h3{    
@@ -709,7 +707,6 @@ header {
         width: 10rem;
     }
     .form-box {
-        border: .8px solid #fff;
         padding-left: 1rem;
         margin: .7rem 1.3rem;
     }
@@ -771,7 +768,6 @@ header {
         margin-left: 1.3rem;
     }
     .form-box {
-        border: .7px solid #fff;
         margin: .5rem 1rem;
     }
     .contact-heading h2 {
