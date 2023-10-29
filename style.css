@@ -21,14 +21,14 @@ font-family: 'Montserrat', sans-serif;
 
 .landing-content {
     height: 42rem;
-    width: 57rem;
+    width: 70rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .landing-img img{
-    width: 40rem;
+    width: 50rem;
     height: 98vh;
 
 }
@@ -204,6 +204,9 @@ font-family: 'Montserrat', sans-serif;
     .landing-content {
         height: 35rem;
     }
+    .head-left {
+        font-size: 1.5rem;
+    }
     
 }
 
@@ -252,7 +255,20 @@ font-family: 'Montserrat', sans-serif;
     .landing-content {
         height: 23rem;
     }
+    .head-left {
+        font-size: 1rem;
+    }
     
+}
+
+@media (max-width: 675px) {
+    .head-right ul li a {
+        display: none;
+    }
+    .head-left  {
+        font-size: x-small;
+        /* width: 100%; */
+    }
 }
 
 @media (max-width: 575px) {
@@ -284,8 +300,8 @@ font-family: 'Montserrat', sans-serif;
     }
     
     .landing-img img{
-        width: 23rem;
-        height: 27rem;
+        width: 24rem;
+        height: 30rem;
     }
 }
 
@@ -325,35 +341,25 @@ font-family: 'Montserrat', sans-serif;
     }
 
     .landing-img img {
-        width: 20rem;
-        height: 22rem;
+        width: 19rem;
+        height: 24rem;
     }
     .landing-content {
         height: 10rem;
         padding: .8rem;
         width: auto;
     }
+    .head-left {
+        font-size: .8rem;
+    }
 }
 
 @media (max-width: 329px) {
   .landing-img img {
-    width: 17rem;
-    height: 18rem;
+    width: 18rem;
+    height: 22rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -416,7 +422,7 @@ header {
 }
 
 .head-right ul li a {
-
+    margin-right: 1rem;
     transition: 0ms;
     font-weight: 500;
 }
@@ -432,6 +438,7 @@ header {
     /* justify-content: space-around; */
     font-size: 1.3rem;
 }
+
 
 
 /* left main section of landing page  */
