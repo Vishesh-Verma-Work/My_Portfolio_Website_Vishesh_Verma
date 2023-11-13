@@ -177,8 +177,8 @@ nav ul li a:hover {
 }
 
 .landing-img img{
-    width: 50rem;
-    height: 98vh;
+    width: 42rem;
+    height: 44rem;
 
 }
 
@@ -303,8 +303,8 @@ nav ul li a:hover {
     }
 
     .landing-img img{
-        width: 30rem;
-        height: 85vh;
+        width: 34rem;
+        height: 41rem;
     }
     
 }
@@ -348,7 +348,7 @@ nav ul li a:hover {
 
     .landing-img img{
         width: 30rem;
-        height: 75vh;
+        height: 35rem;
     }
     .landing-content {
         height: 35rem;
@@ -399,7 +399,7 @@ nav ul li a:hover {
 
     .landing-img img{
         width: 22rem;
-        height: 48vh;
+        height: 25rem;
     }
     .landing-content {
         height: 23rem;
