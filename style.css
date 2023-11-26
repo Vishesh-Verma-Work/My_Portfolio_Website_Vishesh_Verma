@@ -733,14 +733,6 @@ nav ul li a:hover {
 
 
 
-
-
-
-
-
-
-
-
 @media (max-width : 850px ) {
     .card {
         height: 20rem;
@@ -969,3 +961,158 @@ nav ul li a:hover {
 
 } 
 
+
+.project {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+.frame {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.projectIcon {
+   /* filter: drop-shadow(0 0  30px #0ebfcc9c); */
+   transition: 0ms;
+    font-size: 2.5rem;
+}
+
+.projectIcon:hover {
+    color: #0ebfcc9c;
+}
+
+.frame img {
+    width: 42rem;
+    border-radius: 1.4rem;
+    box-shadow: 0rem 0rem 2rem #0ebfcc9c;
+    height: 22rem;
+}
+
+.frameBtn button  {
+    transition: .5s;
+    border-radius: .5rem;
+    padding: .45rem 2rem;
+    border: 2px solid white;
+    color: white;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.frameBtn button a {
+    color: white;
+}
+.frameBtn button:hover {
+    box-shadow: 0 0 4rem #0ebfcc62;    
+}
+
+.projectDetails {
+    margin-top: 2.3rem;
+    width: 80%;
+}
+
+.projectTitle {
+    font-size: 2.5rem;
+}
+
+.projectDescriptionText {
+    font-size: 1rem;
+}
+
+@media (max-width : 849px) {
+    .frame {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width : 892px) {
+    .frame img {
+        height: 20rem;
+        width: 35rem;
+    }
+    .projectTitle {
+        font-size: 2rem;
+    }
+    
+    .projectDescriptionText {
+        font-size: .8rem;
+    }
+    .frameBtn button  {
+        border-radius: .5rem;
+        padding: .45rem 1rem;
+    } 
+}
+
+@media (max-width : 790px) {
+    .frame img {
+        height: 15rem;
+        width: 27rem;
+    }
+    .projectTitle {
+        font-size: 1.5rem;
+    }
+    
+    .projectDescriptionText {
+        font-size: .65rem;
+    }
+    .frameBtn button  {
+        border-radius: .5rem;
+        padding: .3rem .7rem;
+    } 
+}
+
+@media (max-width : 660px) {
+    .frameBtn a {
+        font-size: .7rem;
+    }
+    .projectIcon {
+        font-size: 1.8rem;
+    }
+    .frame {
+        margin-top: 3rem;
+    }
+    .frame img {
+        box-shadow: 0rem 0rem 1rem #0ebfcc9c;
+        height: 11rem;
+        width: 21rem;
+    }
+    .frameBtn button  {
+        border-radius: .5rem;
+        padding: .3rem .7rem;
+    } 
+}
+
+@media (max-width : 480px) {
+    .frameBtn a {
+        font-size: .55rem;
+    }
+    .projectIcon {
+        font-size: 1.1rem;
+    }
+    .frame img {
+        height: 8rem;
+        width: 16rem;
+    }
+    .projectTitle {
+        font-size: 1.5rem;
+    }
+    
+    .projectDescriptionText {
+        font-size: .5rem;
+    }
+    .frameBtn button  {
+        border-radius: .35rem;
+        padding: .05rem .6rem;
+    } 
+}
+
+        /* project section  */
