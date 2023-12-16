@@ -240,13 +240,19 @@ nav ul li a:hover {
     /* box-shadow: 0 0 900px rgba(255, 255, 255, .4); */
     transition: 500ms;
     border: none;
-    border: .5px solid #090909;
+    /* border: .5px solid #090909; */
+    box-shadow:  0 0 6rem #0ebfcc56;
 }
 
 .button-1 button {
     margin-right: 2rem;
     color: #0EBFCC;
     background-color: #FFFFFF;
+    box-shadow:  0 0 6rem #0ebfcc9a;
+}
+.button-1 a {
+    color: #0EBFCC;
+    background-color: #fff;
 }
 
 
@@ -257,6 +263,7 @@ nav ul li a:hover {
     color: #FFFFFF;
     background-color: #0A2324;
     border: .5px solid #fff;
+
 }
 
 .button-2 button {

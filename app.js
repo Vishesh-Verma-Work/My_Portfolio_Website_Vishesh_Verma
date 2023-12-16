@@ -20,6 +20,20 @@ cross.addEventListener("click", () => {
     header.style.borderBottom = "none";
 });
 
+function scrollToServices() {
+    const servicesSection = document.getElementById('servicesSection');
+    servicesSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToSkills() {
+    const skillsSection = document.getElementById('skillsSection');
+    skillsSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToContact() {
+    const con = document.getElementById('con');
+    con.scrollIntoView({ behavior: 'smooth' });
+}
 
 let nextimg = document.querySelector(".projectIconnext");
 let projectImg1 = document.querySelector(".projectImg1");

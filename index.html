@@ -37,10 +37,10 @@
                 </div>
                 <div class="right-header">
                     <ul>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Projects</a></li>
+                        <li><a href="#" onclick="scrollToSkills();">Skills</a></li>
+                        <li><a href="#" onclick="scrollToServices()">Projects</a></li>
                         <li><a href="#">Testimonial</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" onclick="scrollToContact()">Contact</a></li>
                         <i class="fa-solid fa-bars" id="hamburger"></i>
                         <i class="fa-solid fa-xmark" id="cross"></i>
                     </ul>
@@ -50,16 +50,16 @@
 
         <div class="header-down">
             <div class="header-list">
-                <a href="#">Skills</a>
+                <a href="#" onclick="scrollToSkills();">Skills</a>
             </div>
             <div class="header-list">
-                <a href="#">Projects</a>
+                <a href="#" onclick="scrollToServices()">Projects</a>
             </div>
             <div class="header-list">
                 <a href="#">Testimonial</a>
             </div>
             <div class="header-list">
-                <a href="#">Contact</a>
+                <a href="#" onclick="scrollToContact()">Contact</a>
             </div>
         </div>
 
@@ -87,9 +87,10 @@
                 </div>
                 <div class="s6">
                     <div class="button-1">
-                        <button>Resume</button>
+                        <button onclick="window.open('resume/Final2Resume.pdf', '_blank');">Resume</button>
+
                     </div>
-                    <div class="button-2"><button>Projects</button></div>
+                    <div class="button-2"><button onclick="scrollToServices()">Projects</button></div>
                 </div>
             </div>
 
@@ -161,6 +162,8 @@
     </main>
 
 
+
+    <div id="skillsSection"></div>
 
     <div class="text-heading">
         <h3>My Skills</h3>
@@ -242,6 +245,22 @@
         </div>
 
         <div class="card">
+            <div class="skill-pic m-extra-pic-width">
+                <img src="./img/mongo.png " alt="mongo.js">
+            </div>
+            <div class="skill-tittle">MongoDB</div>
+            <div class="skill-des">Mastered MongoDB, adeptly managing data with expertise and precision for seamless operations.</div>
+        </div>
+
+        <div class="card">
+            <div class="skill-pic m-extra-pic-width">
+                <img src="./img/flutter.png " alt="flutter.js">
+            </div>
+            <div class="skill-tittle">Basic Flutter</div>
+            <div class="skill-des">Basic knowledge in Flutter, exploring its potential to craft dynamic cross-platform applications.</div>
+        </div>
+
+        <div class="card">
             <div class="skill-pic extra-pic-width">
                 <img src="./img/prompt.png" alt="Prompt Engineering">
             </div>
@@ -282,7 +301,7 @@
 
 
     <div class="text-heading new1">
-        <h3>My Projects</h3>
+        <h3 id="servicesSection">My Projects</h3>
     </div>
     <div class="project">
 
@@ -314,6 +333,8 @@
 
 
 
+
+    <div id="con"></div>
 
     <div class="text-heading new1">
         <h3>Contact Me</h3>
